@@ -1,0 +1,65 @@
+
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center the main container */
+    align-items: center; /* Vertically center the main container */
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack the image and text vertically */
+    align-items: center; /* Horizontally center the image and text within main container */
+    max-width: 650px;
+    left: -2.5%;
+    box-shadow: 0px 0px 90px rgb(9, 0, 28);
+    border-radius: 35px;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(40, 1, 125, 0.355); /* Limit the maximum width of the main container */ /* Add some padding for spacing */ /* Optional: Add a background color to the main container */
+}
+
+.text-container{
+    align-items: center;
+    text-align: center;
+    font-size: 0.99em;
+    color: aliceblue;
+    align-content: center;
+    position: absolute;
+    top: 0px;
+    right: -0px;
+    height: 100%;
+    width: 180px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(40, 1, 125, 0.355);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 12px;
+    padding-right: 14px;
+}
+
+.image-container {
+    border-radius: 20px;
+    background-color: rgba(196, 131, 45, 0);
+    
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.img-huble-telliscop{
+    border-radius: 20px;
+}
+
+.text-container h1 {
+    text-align: center; /* Center the text horizontally */
+}
